@@ -1,0 +1,434 @@
+.content {
+    background-color: gray;
+    font-family: 'Andada Pro', serif;
+    font-size: 14px;
+}
+
+.sign_in {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: 470px;
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs p input {
+    padding-left: 15px;
+    width: 265px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid lightgrey;
+    outline: none;
+    font-family: 'Times New Roman', cursive;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.Remember_me {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 280px;
+    height: 45px;
+    color: gray;
+}
+
+.Remember_me span {
+    margin-left: 63px;
+    color: red;
+}
+
+.button button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    border-radius: 30px;
+    width: 286px;
+    height: 46px;
+    margin: 15px;
+    color: white;
+    border: none;
+    justify-content: center;
+}
+
+.button button::before {
+    color: #01a715;
+    vertical-align: middle;
+}
+
+.gray_text label {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+}
+
+.icons img {
+    border-radius: 15px;
+    margin: 0px 5px;
+}
+
+.line hr {
+    border: none;
+    background-color: gray;
+    size: 5px;
+    color: gray;
+    width: 280px;
+}
+
+.gray_text p {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 280px;
+    height: 40px;
+    color: gray;
+}
+
+.red_text {
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 280px;
+    height: 45px;
+    color: gray;
+}
+
+.end {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 280px;
+    height: 40px;
+    color: gray;
+}
+
+.end label {
+    margin: 15px;
+    color: red;
+}
+
+.sign_up {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: 470px;
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.reset_password {
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: 305px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.reset_password_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: gray;
+}
+
+.reset_password_text p {
+    margin: 3px;
+}
+
+.end_text {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: gray;
+}
+
+.end_text label {
+    margin: 15px;
+    color: red;
+}
+
+.success {
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: 305px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.image {
+    margin: 15px;
+}
+
+.E-newsletter {
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 460px;
+    height: 210px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.e_text {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    text-align: left;
+    align-items: end;
+}
+
+.e_text p {
+    margin: 3px;
+}
+
+.input_button p input {
+    padding-left: 15px;
+    width: 265px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid lightgrey;
+    outline: none;
+    font-family: 'Times New Roman', cursive;
+    border-right: 68px solid white;
+    margin-right: -10px;
+}
+
+.input_button p button {
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    height: 46px;
+    margin-left: -46px;
+    color: white;
+}
+
+.tavon {
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 190px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.line_tavon hr {
+    border: none;
+    background-color: gray;
+    size: 5px;
+    color: gray;
+    width: 400px;
+}
+
+.images_tavon {
+    margin: 30px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.images_tavon img {
+    margin: 10px 10px;
+}
+
+.input_submit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 685px;
+    height: 700px;
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.field__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.field__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.field__file-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.field__file-fake {
+    height: 60px;
+    width: 590px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.t1 {
+    color: red;
+    margin-left: 3px;
+}
+
+.inputs_requests {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.inputs_requests p input {
+    padding-left: 15px;
+    width: 265px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid lightgrey;
+    outline: none;
+    font-family: 'Times New Roman', cursive;
+    margin: 15px;
+}
+
+.inputs_requests p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputs_requests span {
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.message p {
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.message span {
+    margin-left: 45px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.message input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    height: 100px;
+    padding-left: 15px;
+    border-radius: 30px;
+    border: 2px solid lightgrey;
+    outline: none;
+    font-family: 'Times New Roman', cursive;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+
+.field__wrapper p {
+    font-weight: bolder;
+    margin-left: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.button_submit button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    border-radius: 30px;
+    width: 200px;
+    height: 46px;
+    margin: 15px;
+    color: white;
+    border: none;
+    margin-left: -305px;
+    justify-content: center;
+}
